@@ -32,12 +32,19 @@ body {
 }
 .login { 
 	position: absolute;
-	top: 17%;
+	top: 20%;
 	left: 33%;
 	margin: -150px 0 0 -150px;
 	width:1000px;
 	height:400px;
 }
+
+.table_style {
+	th, td {
+		color: #ffffff;
+	}
+}
+
 
 .login h1 { color: #fff; text-shadow: 0 0 10px rgba(0,0,0,0.3); letter-spacing:1px; text-align:center; }
 

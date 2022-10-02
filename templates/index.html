@@ -36,10 +36,9 @@
               <input type="submit" class="btn btn-primary" value="Submit" />
             </div>
           </div>
-          <br>
-          <div class="row" color=#fff>
+          <div class="row">
             {% if row_data %}
-            <table class="table table-striped table-hover">
+            <table class="table table-striped table-hover table_style">
               <h4>
                 List of Top 5 Recommended Products
               </h4>
@@ -70,7 +69,7 @@
           </div>
         </div>
       </form>
-      <br>
+
       <form method="post" action="/predictSentiment">
         <div class="row vstack gap-3">
           <div class="row">
